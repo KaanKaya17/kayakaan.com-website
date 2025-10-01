@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  background-color: #191923 !important;
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(135deg, #1F1F1F, #4b4b58);;
+}
+
+
+.container {
+  max-width: 100% !important;
+}
+
+.main-container {
+  max-width: 1400px;
+  display: flex;
+}
+
+.left-panel {
+  width: 30%;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+  padding: 1rem;
+  background-color: #242430;
+  border-radius: 10px;
+  height: fit-content;
+}
+.font-montserrat{
+    font-family: "Montserrat", sans-serif;
+}
+/*
+.picture-container{
+  padding: 4%;
+  position: relative;
+  margin-bottom: 5%;
+}
+*/
+.main-picture {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  object-fit: cover;
+  left: 0;
+  height: 100%;
+}
+
+.bg-progress-bar {
+  background-color: #FFC107;
+}
+
+.middle-panel {
+  width: 75%;
+  padding-left: 2rem;
+}
+
+/* Küçük ekranlar için düzenleme */
+@media (max-width: 766px) {
+
+  .where-am-i,
+  .contact-info {
+    flex-direction: column;
+    align-items: flex-start;
+    /* sola hizala */
+  }
+
+  .where-am-i p,
+  .contact-info p,
+  .font-size-update {
+    font-size: 14px;
+    /* Yazı boyutunu küçült */
+  }
+
+  .font-size-update,
+  .languages {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .language{
+    margin-left: 0 !important;
+  }
+
+  .social-media-responsive {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}
+
+
+.picture-about-me {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  border: 2px solid #FFC107;
+}
+
+.mail-adress {
+  color: gray !important;
+  text-decoration: underline;
+}
+
+.btn-github {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-github:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.about-me-what-im-doing p {
+  margin: 0;
+}
+
+.about-me-where-am-i,
+.languages,
+.code-skills,
+.social-media {
+  background-color: #20202A;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  word-break: break-word;
+  white-space: normal;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: conic-gradient(#FFC107 0% 70%, #ddd 70% 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #20202A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-circle span {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.code-upper p {
+  margin: 0;
+}
+
+.about-me,
+.education-part,
+.contact {
+  background-color: #2B2B36;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.cart-shadow{
+    box-shadow: 5px 2px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.education-category-container {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.where-am-i-text-color {
+  color: gray;
+}
+
+.btn-explore {
+  background-color: #FFC107;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.contact-info p {
+  margin: 0;
+}
+
+.circle.turkish {
+  background: conic-gradient(#FFC107 0% 95%, #ddd 99% 100%);
+}
