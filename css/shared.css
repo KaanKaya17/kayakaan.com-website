@@ -1,12 +1,16 @@
 body {
     margin: 0;
+    color: white !important;
+    height: 100vh;
     background-color: #191923 !important;
     font-family: "Open Sans", sans-serif;
-    background: linear-gradient(135deg, #1F1F1F, #282829);
-    ;
+    background: linear-gradient(135deg, #1F1F1F, #282829) !important;
 }
 
 .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%;
     position: sticky;
     padding: 1%;
@@ -20,6 +24,7 @@ body {
     flex-direction: row;
     align-items: center;
     gap: 1%;
+    height: 100%;
 }
 
 .header-author {
@@ -36,4 +41,10 @@ body {
     width: 75px;
     height: 75px;
     border-radius: 50%;
+}
+
+a{
+    text-decoration: none !important;
+    color: white !important;
+    width: 100%;
 }
