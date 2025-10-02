@@ -8,11 +8,11 @@ body {
 
 .header {
     width: 100%;
-    position: relative;
+    position: sticky;
     padding: 1%;
     top: 0;
     height: fit-content;
-    background: rgba(255, 255, 255, 0.2);
+    background-color: black;
 }
 
 .header-section {

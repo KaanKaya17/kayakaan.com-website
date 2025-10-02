@@ -12,6 +12,8 @@
 .project{
     border: 1px solid white;
     border-radius: 5px;
+    margin-top: 1%;
+    margin-bottom: 1%;
     width: 62%;
     height: fit-content;
     padding: 1%;
@@ -28,4 +30,19 @@
 }
 .project-image{
     display: flex;
+    margin-top: 1%;
+}
+.about-project{
+    margin-top: 2%;
+}
+.likes-views{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+.button{
+    border: none;
+    padding: 1%;
+    font-size: 18px;
+    border-radius: 15px;
 }
